@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-dolla/static/css/main.d7da34c1.css",
+    "main.js": "/react-dolla/static/js/main.a98c04a4.js",
+    "index.html": "/react-dolla/index.html",
+    "main.d7da34c1.css.map": "/react-dolla/static/css/main.d7da34c1.css.map",
+    "main.a98c04a4.js.map": "/react-dolla/static/js/main.a98c04a4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d7da34c1.css",
+    "static/js/main.a98c04a4.js"
+  ]
+}

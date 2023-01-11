@@ -1,15 +1,17 @@
 {
   "files": {
     "main.css": "/react-dolla/static/css/main.d7da34c1.css",
-    "main.js": "/react-dolla/static/js/main.d410f75a.js",
+    "main.js": "/react-dolla/static/js/main.8b79bd20.js",
     "static/media/video.mp4": "/react-dolla/static/media/video.7d1ea6a94986d5c2a068.mp4",
+    "static/media/savings.svg": "/react-dolla/static/media/savings.0d5eafcfa1b4a30e0bbdaeb28bff572e.svg",
     "static/media/happy.svg": "/react-dolla/static/media/happy.4b6958db1fc20efcaef56ce022c806a0.svg",
+    "static/media/signup.svg": "/react-dolla/static/media/signup.9c62aac0cd650d7266137a0e9727e458.svg",
     "index.html": "/react-dolla/index.html",
     "main.d7da34c1.css.map": "/react-dolla/static/css/main.d7da34c1.css.map",
-    "main.d410f75a.js.map": "/react-dolla/static/js/main.d410f75a.js.map"
+    "main.8b79bd20.js.map": "/react-dolla/static/js/main.8b79bd20.js.map"
   },
   "entrypoints": [
     "static/css/main.d7da34c1.css",
-    "static/js/main.d410f75a.js"
+    "static/js/main.8b79bd20.js"
   ]
 }

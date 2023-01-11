@@ -30,7 +30,7 @@ const Info = (props) => {
               <BtnWrap>
                 <Button
                   to='home'
-                  smooth='true'
+                  smooth={true}
                   duration={500}
                   spy={true}
                   exact='true'

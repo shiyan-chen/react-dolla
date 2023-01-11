@@ -9,15 +9,15 @@ import {
   P,
   HeroBtn,
   ArrowForward,
-  ArrowRight
+  ArrowRight,
 } from './HeroElements'
-import { Button } from '../ButtonElement'
+import { Button } from '../ButtonElements'
 
 const Hero = () => {
   const [hover, setHover] = useState(false)
 
   const onHover = () => {
-    setHover(prevDate => !prevDate)
+    setHover((prevDate) => !prevDate)
   }
 
   return (
@@ -27,15 +27,18 @@ const Hero = () => {
       </Bg>
       <Content>
         <H1>Virtual Banking Made Easy</H1>
-        <P>Sign up for a new account today and receive $250 in credit
-          towards your next payment</P>
+        <P>
+          Sign up for a new account today and receive $250 in credit towards
+          your next payment
+        </P>
         <HeroBtn>
           <Button
             to='signup'
             onMouseEnter={onHover}
             onMouseLeave={onHover}
             primary='true'
-            dark='true'>
+            dark='true'
+          >
             Get started {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
         </HeroBtn>

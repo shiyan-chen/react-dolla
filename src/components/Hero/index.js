@@ -23,13 +23,13 @@ const Hero = () => {
   return (
     <Container id='home'>
       <Bg>
-        <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
+        <VideoBg autoPlay loop muted playsInline src={Video} type='video/mp4' />
       </Bg>
       <Content>
         <H1>Virtual Banking Made Easy</H1>
         <P>
           Sign up for a new account today and receive $250 in credit towards
-          your next payment
+          your next payment!
         </P>
         <HeroBtn>
           <Button
@@ -44,7 +44,7 @@ const Hero = () => {
             exact='true'
             offset={-80}
           >
-            Get started {hover ? <ArrowForward /> : <ArrowRight />}
+            Get Started {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
         </HeroBtn>
       </Content>

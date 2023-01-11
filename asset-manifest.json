@@ -1,17 +1,20 @@
 {
   "files": {
     "main.css": "/react-dolla/static/css/main.d7da34c1.css",
-    "main.js": "/react-dolla/static/js/main.8b79bd20.js",
+    "main.js": "/react-dolla/static/js/main.cd372b47.js",
     "static/media/video.mp4": "/react-dolla/static/media/video.7d1ea6a94986d5c2a068.mp4",
+    "static/media/sleep.svg": "/react-dolla/static/media/sleep.12a7b460bec2086c5bf2db499f0cf1bc.svg",
     "static/media/savings.svg": "/react-dolla/static/media/savings.0d5eafcfa1b4a30e0bbdaeb28bff572e.svg",
     "static/media/happy.svg": "/react-dolla/static/media/happy.4b6958db1fc20efcaef56ce022c806a0.svg",
+    "static/media/relaxation.svg": "/react-dolla/static/media/relaxation.1e1cc59515e015820450b3c7642534b9.svg",
     "static/media/signup.svg": "/react-dolla/static/media/signup.9c62aac0cd650d7266137a0e9727e458.svg",
+    "static/media/login.svg": "/react-dolla/static/media/login.5d14db429ea05d030440a2aac6ef7aa2.svg",
     "index.html": "/react-dolla/index.html",
     "main.d7da34c1.css.map": "/react-dolla/static/css/main.d7da34c1.css.map",
-    "main.8b79bd20.js.map": "/react-dolla/static/js/main.8b79bd20.js.map"
+    "main.cd372b47.js.map": "/react-dolla/static/js/main.cd372b47.js.map"
   },
   "entrypoints": [
     "static/css/main.d7da34c1.css",
-    "static/js/main.8b79bd20.js"
+    "static/js/main.cd372b47.js"
   ]
 }

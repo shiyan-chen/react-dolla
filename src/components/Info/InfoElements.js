@@ -13,6 +13,7 @@ export const Wrapper = styled.div`
   display: grid;
   z-index: 1;
   height: 100vh;
+  min-height: 860px;
   max-width: 1100px;
   margin-inline: auto;
   padding: 0 24px;

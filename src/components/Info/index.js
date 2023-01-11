@@ -24,7 +24,9 @@ const Info = (props) => {
             <Content>
               <TopLine>{props.topLine}</TopLine>
               <Heading lightText={props.lightText}>{props.headline}</Heading>
-              <Subtitle dartText={props.darkText}>{props.description}</Subtitle>
+              <Subtitle lightTextDesc={props.lightTextDesc}>
+                {props.description}
+              </Subtitle>
               <BtnWrap>
                 <Button
                   to='home'

@@ -6,6 +6,7 @@ import {
   FaTwitter,
   FaLinkedin,
 } from 'react-icons/fa'
+import { animateScroll } from 'react-scroll'
 import {
   Container,
   Wrapper,
@@ -23,6 +24,10 @@ import {
 } from './FooterElements'
 
 const Footer = () => {
+  const toggleHome = () => {
+    animateScroll.scrollToTop()
+  }
+
   return (
     <Container>
       <Wrapper>
@@ -63,7 +68,9 @@ const Footer = () => {
         </LinkContainer>
         <SocialMedia>
           <SocialMediaWrap>
-            <SocialLogo to='/'>dolla</SocialLogo>
+            <SocialLogo to='/' onClick={toggleHome}>
+              dolla
+            </SocialLogo>
             <WebsiteRights>
               dolla &copy; {new Date().getFullYear()} All rights reserved.
             </WebsiteRights>
